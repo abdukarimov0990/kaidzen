@@ -774,7 +774,7 @@ section{
     }
   
     .hero-container{
-      display: flex; /* fallback uchun */
+      display: flex;
       flex-direction: column;
     }
   
@@ -785,7 +785,7 @@ section{
     .hero-img{
       height: 364px;
       width: 350px;
-      max-width: 100%; /* responsive fallback */
+      max-width: 100%;
     }
   
     .hero-img-panel{
@@ -793,7 +793,7 @@ section{
     }
   
     .hero-section{
-      min-height: 115vh; /* fallback for mobile vh issues */
+      min-height: 115vh; 
     }
   
     .hero-button{
@@ -804,7 +804,7 @@ section{
     }
   
     .cards{
-      display: flex; /* fallback */
+      display: flex; 
       flex-direction: column;
       width: 100%;
       max-width: 400px;
@@ -815,17 +815,17 @@ section{
     }
   
     .about{
-      display: flex; /* fallback */
+      display: flex; 
       flex-direction: column;
     }
   
     .about-wrapper{
-      display: flex; /* fallback */
+      display: flex; 
       flex-direction: column;
     }
   
     .pricing-container{
-      display: flex; /* fallback */
+      display: flex; 
       flex-direction: column;
     }
   
@@ -839,7 +839,7 @@ section{
     }
   
     .footer-container{
-      display: flex; /* fallback */
+      display: flex; 
       flex-direction: column;
     }
   
@@ -855,7 +855,7 @@ section{
     }
   
     .overlay{
-      min-height: 115vh; /* fallback */
+      min-height: 115vh; 
     }
   }
   
