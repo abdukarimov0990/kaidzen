@@ -754,81 +754,108 @@ section{
     font-size: 12px;
     color: rgba(255,255,255,0.6);
   }
-@media (max-width: 768px) {
-  .container{
-    padding-left: 15px;
-    padding-right: 15px;
+  @media (max-width: 768px) {
+    .container{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .logo{
+      display: none;
+    }
+  
+    .header-container{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .hero-stats{
+      display: none;
+    }
+  
+    .hero-container{
+      display: flex; /* fallback uchun */
+      flex-direction: column;
+    }
+  
+    .hero-title{
+      font-size: 28px;
+    }
+  
+    .hero-img{
+      height: 364px;
+      width: 350px;
+      max-width: 100%; /* responsive fallback */
+    }
+  
+    .hero-img-panel{
+      margin-top: -20px;
+    }
+  
+    .hero-section{
+      min-height: 115vh; /* fallback for mobile vh issues */
+    }
+  
+    .hero-button{
+      position: absolute;
+      z-index: 2;
+      bottom: 20px;
+      left: 10%;
+    }
+  
+    .cards{
+      display: flex; /* fallback */
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .about-image{
+     display: none;
+    }
+  
+    .about{
+      display: flex; /* fallback */
+      flex-direction: column;
+    }
+  
+    .about-wrapper{
+      display: flex; /* fallback */
+      flex-direction: column;
+    }
+  
+    .pricing-container{
+      display: flex; /* fallback */
+      flex-direction: column;
+    }
+  
+    .register-box{
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .pricing-card{
+      width: 100%;
+    }
+  
+    .footer-container{
+      display: flex; /* fallback */
+      flex-direction: column;
+    }
+  
+    header{
+      margin-bottom: 40px;
+    }
+  
+    .card{
+      padding-top: 52px;
+      padding-bottom: 52px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  
+    .overlay{
+      min-height: 115vh; /* fallback */
+    }
   }
-  .logo{
-    display: none;
-  }
-  .header-container{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .hero-stats{
-    display: none;
-  }
-  .hero-container{
-    flex-direction: column;
-  }
-  .hero-title{
-    font-size: 28px;
-  }
-  .hero-img{
-    height: 364px;
-    width: 350px;
-  }
-  .hero-img-panel{
-    margin-top: -20px;
-  }
-  .hero-section{
-    height: 115vh;
-  }
-  .hero-button{
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    left: 10%;
-  }
-  .cards{
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
-  }
-  .about-image{
-   display: none;
-  }
- .about{
-  flex-direction: column;
- }
- .about-wrapper{
-  flex-direction: column;
- }
- .pricing-container{
-  flex-direction: column;
- }
- .register-box{
-  width: 100%;
-  max-width: 350px;
- }
- .pricing-card{
-  width: 100%;
- }
- .footer-container{
-  flex-direction: column;
- }
- header{
-  margin-bottom: 40px;
- }
- .card{
-  padding-top: 52px;
-  padding-bottom: 52px;
-  padding-right: 15px;
-  padding-left: 15px;
-
- }
- .overlay{
-  height: 115vh;
- }
-}
+  
